@@ -11,6 +11,8 @@ function sortUserName(users) {
   });
 
   console.log("[sortUserName]", sortedUsers);
+
+  return sortedUsers;
 }
 
 class User {
@@ -79,3 +81,5 @@ sortUserName(users);
 //profession: ‘student’ |‘freelancer’ | ‘productOwner’ | ‘engineer’ | 'systemAnalytics'
 
 //sortBy (‘firstName’ + ‘lastName’ + ‘customerID’)
+
+export default sortUserName;
