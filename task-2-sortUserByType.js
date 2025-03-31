@@ -6,7 +6,7 @@ const professionArr = [
   "student",
 ];
 
-function sortUserByType(users) {
+export default function sortUserByType(users) {
   const sortedUsers = users.sort((a, b) => {
     return (
       professionArr.indexOf(a.profession) - professionArr.indexOf(b.profession)
@@ -18,7 +18,7 @@ function sortUserByType(users) {
   return sortedUsers;
 }
 
-class User {
+export class User {
   constructor(props) {
     this.firstName = props.firstName;
     this.lastName = props.lastName;
