@@ -1,0 +1,24 @@
+.container {
+  font-size: 14px;
+}
+.container .header {
+  font-size: 18px;
+}
+.container .shop-list {
+  list-style: none;
+  margin-left: -15px;
+}
+.container .shop-list li.item {
+  color: green;
+}
+.container ol.shop-list .item {
+  color: blue;
+}
+
+.container .shop-list .item:nth-child(odd) {
+  background-color: aquamarine;
+}
+
+.container .shop-list .item:nth-child(even) {
+  background-color: goldenrod;
+}
