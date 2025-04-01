@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TaskManager from "./TaskManager";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
         >
           Count: {count}
         </button>
+        <TaskManager />
       </div>
     </main>
   );
