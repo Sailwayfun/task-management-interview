@@ -25,3 +25,11 @@ return (
 );
 }
 /** Code block end */
+
+### Answer
+
+See implementation in src folder.
+
+### React 19
+
+In React 19, `ref` is seen as a general prop, so there no longer is the need for wrapping a component with `React.forwardRef`
