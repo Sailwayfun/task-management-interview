@@ -1,0 +1,21 @@
+:root {
+  --border-gray: #cccccc;
+  --input-focus: blue;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-gray);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.search-input {
+  border: 1px solid var(--border-gray);
+
+  &:focus {
+    border: 1px solid var(--input-focus);
+    outline: none;
+  }
+}
