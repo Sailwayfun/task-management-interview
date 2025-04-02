@@ -14,7 +14,8 @@ Explain why does this color not works, and how to fix make it work on 1st list
 
 to
 
-```.container ol.shop-list .item {
+```
+.container ol.shop-list .item {
   color: blue;
 }
 ```
