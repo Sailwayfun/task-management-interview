@@ -1,4 +1,6 @@
 import { useState } from "react";
+import ParentComponent from "./ParentComponent";
+import PeopleContextProvider from "./context/PeopleContextProvider";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +16,9 @@ function App() {
           Count: {count}
         </button>
       </div>
+      <PeopleContextProvider>
+        <ParentComponent />
+      </PeopleContextProvider>
     </main>
   );
 }
